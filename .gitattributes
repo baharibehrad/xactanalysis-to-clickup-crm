@@ -1,0 +1,4 @@
+# Field-definition data files — not application code
+filds*.js linguist-vendored
+*.json linguist-vendored
+*.php linguist-detectable=true
