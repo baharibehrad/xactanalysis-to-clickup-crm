@@ -1,4 +1,4 @@
-# Email → ClickUp CRM Automation
+# XactAnalysis → ClickUp CRM Automation
 
 Automatically turns **insurance restoration assignment emails into structured
 ClickUp CRM records** — no manual data entry.
