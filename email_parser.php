@@ -217,7 +217,7 @@ function htmlToPlainText(string $html): string
  *             these XactAnalysis notification emails share.
  *
  * More formats can be added here as new samples come in - this is exactly
- * the kind of per-format variation Dean flagged, so expect this list to grow.
+ * known per-format variation, so expect this list to grow.
  */
 function extractNoteText(string $body): string
 {

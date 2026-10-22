@@ -390,7 +390,7 @@
                 },
                 {
                     "id": "d0f92c22-edeb-42c8-b243-0aaf866126f8",
-                    "name": "Builpire",
+                    "name": "ExampleCo",
                     "color": "#41ff73"
                 }
             ],

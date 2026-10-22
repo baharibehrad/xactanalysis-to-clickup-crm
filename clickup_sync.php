@@ -87,7 +87,7 @@ function clickupRequest(string $method, string $path, ?array $body = null): arra
         $headers = [
             'Authorization: ' . CLICKUP_API_TOKEN,
             'Content-Type: application/json',
-            'User-Agent: BuilpireClickUpSync/1.0 (+PHP cURL)',
+            'User-Agent: ClickUpSync/1.0 (+PHP cURL)',
         ];
 
         $opts = [
@@ -158,7 +158,7 @@ function fetchLiveFieldsJson(string $source): array
             'http' => [
                 'method'        => 'GET',
                 'header'        => implode("\r\n", [
-                    'User-Agent: BuilpireClickUpSync/1.0 (+PHP file_get_contents)',
+                    'User-Agent: ClickUpSync/1.0 (+PHP file_get_contents)',
                     'Accept: application/json, text/javascript, */*',
                 ]),
                 'timeout'       => 20,
@@ -240,7 +240,7 @@ function geocodeAddress(string $address): ?array
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_TIMEOUT        => 10,
         CURLOPT_HTTPHEADER     => [
-            'User-Agent: BuilpireClickUpSync/1.0 (contact: dev@builpire.com)',
+            'User-Agent: ClickUpSync/1.0',
         ],
     ]);
     $raw = curl_exec($ch);

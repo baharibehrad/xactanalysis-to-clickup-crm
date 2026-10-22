@@ -1,9 +1,9 @@
-Return-Path: <assignments@example-insurance.test>
+Return-Path: <adjuster@example-adjuster.test>
 Delivered-To: intake@example-contractor.test
-Date: Wed, 13 May 2026 16:57:50 -0500
-From: XactAnalysis Assignments <assignments@example-insurance.test>
+Date: Fri, 15 May 2026 10:22:17 -0700
+From: Field Adjuster <adjuster@example-adjuster.test>
 To: intake@example-contractor.test
-Subject: New Assignment - Allstate - Claim 00-1234-567
+Subject: Fwd: Contact JANE SAMPLE @ (Wind) - ExampleCo (Normal assignment)
 MIME-Version: 1.0
 Content-Type: multipart/alternative; boundary="sample-boundary-0001"
 
@@ -11,40 +11,55 @@ Content-Type: multipart/alternative; boundary="sample-boundary-0001"
 Content-Type: text/plain; charset="UTF-8"
 Content-Transfer-Encoding: 7bit
 
-New Assignment Profile
-======================
+---------- Forwarded message ---------
+From: XactAnalysis <XactAnalysis.support@xactware.test>
+Date: Mon, May 11, 2026 at 7:09 PM
+Subject: Contact JANE SAMPLE @ (Wind) - ExampleCo (Normal assignment)
+To: <adjuster@example-adjuster.test>
 
-Claim Number:         00-1234-567
-XA ID:                7010397309-1
-Insured Name:         Jane Q. Sample
-Mobile Phone:         555-010-0199
-Email Address:        jane.sample@example.test
-Type of Loss:         Water - Pipe Burst
-Date of Loss:         05/10/2026
-Location of Property: 1200 Example Ave, Sampletown, CA 90000
+From:  SampleInsurance-0GRP0-Example Exterior
+To:    ExampleCo
 
-View full assignment details here:
+Assignment Profile:
+Type:  Normal
+Date of Loss:  05/10/2026
+Claim Number:  0000000000-1
+Insured Name:  JANE SAMPLE
+Mobile Phone:  555-010-0199
+Email Address: jane.sample@example.test
+Type of Loss:  WIND/HAIL
+XA ID:  SAMPLE01
+Location of Property:  1200 EXAMPLE AVE, SAMPLETOWN, CA 90000-0000, USA
+
+Instructions:
+Notes :Service Type - Roofing
+
+Dates:
+Notification Sent:  05/11/2026 07:09PM MT   View detailed information for
+this assignment in XactAnalysis.
 <https://xactanalysis.com/apps/xnportal/welcome.jsp?detail_mfn=SAMPLE01&detail_tab=d_assignment>
 
-This is a synthetic sample email used only for testing the parser.
-All names, numbers and addresses are fictitious.
+(This is a synthetic sample. All names, numbers and addresses are fictitious.)
 
 --sample-boundary-0001
 Content-Type: text/html; charset="UTF-8"
 Content-Transfer-Encoding: 7bit
 
-<html><body>
-<h2>New Assignment Profile</h2>
+<div dir="ltr">---------- Forwarded message ---------<br>
+From: <strong>XactAnalysis</strong> &lt;XactAnalysis.support@xactware.test&gt;<br>
+Date: Mon, May 11, 2026 at 7:09 PM<br>
+Subject: Contact JANE SAMPLE @ (Wind) - ExampleCo (Normal assignment)<br><br>
 <table>
-  <tr><td>Claim Number:</td><td>00-1234-567</td></tr>
-  <tr><td>Insured Name:</td><td>Jane Q. Sample</td></tr>
+  <tr><td>From:</td><td>SampleInsurance-0GRP0-Example Exterior</td></tr>
+  <tr><td>Claim Number:</td><td>0000000000-1</td></tr>
+  <tr><td>Insured Name:</td><td>JANE SAMPLE</td></tr>
   <tr><td>Mobile Phone:</td><td>555-010-0199</td></tr>
   <tr><td>Email Address:</td><td>jane.sample@example.test</td></tr>
-  <tr><td>Type of Loss:</td><td>Water - Pipe Burst</td></tr>
-  <tr><td>Date of Loss:</td><td>05/10/2026</td></tr>
-  <tr><td>Location of Property:</td><td>1200 Example Ave, Sampletown, CA 90000</td></tr>
+  <tr><td>Type of Loss:</td><td>WIND/HAIL</td></tr>
+  <tr><td>XA ID:</td><td>SAMPLE01</td></tr>
+  <tr><td>Location of Property:</td><td>1200 EXAMPLE AVE, SAMPLETOWN, CA 90000-0000, USA</td></tr>
 </table>
-<p><a href="https://xactanalysis.com/apps/xnportal/welcome.jsp?detail_mfn=SAMPLE01&amp;detail_tab=d_assignment">View full assignment</a></p>
-</body></html>
+<p><a href="https://xactanalysis.com/apps/xnportal/welcome.jsp?detail_mfn=SAMPLE01&amp;detail_tab=d_assignment">View assignment in XactAnalysis</a></p>
+</div>
 
 --sample-boundary-0001--
