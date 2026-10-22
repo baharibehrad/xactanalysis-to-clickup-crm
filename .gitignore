@@ -1,0 +1,17 @@
+# Real credentials — never commit
+config.php
+
+# Real client data
+Emails/
+deal_index.json
+
+# Logs & local noise
+*.log
+error_log
+.idea/
+.vscode/
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db

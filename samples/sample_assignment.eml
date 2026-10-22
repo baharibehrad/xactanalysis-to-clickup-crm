@@ -1,0 +1,50 @@
+Return-Path: <assignments@example-insurance.test>
+Delivered-To: intake@example-contractor.test
+Date: Wed, 13 May 2026 16:57:50 -0500
+From: XactAnalysis Assignments <assignments@example-insurance.test>
+To: intake@example-contractor.test
+Subject: New Assignment - Allstate - Claim 00-1234-567
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="sample-boundary-0001"
+
+--sample-boundary-0001
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+New Assignment Profile
+======================
+
+Claim Number:         00-1234-567
+XA ID:                7010397309-1
+Insured Name:         Jane Q. Sample
+Mobile Phone:         555-010-0199
+Email Address:        jane.sample@example.test
+Type of Loss:         Water - Pipe Burst
+Date of Loss:         05/10/2026
+Location of Property: 1200 Example Ave, Sampletown, CA 90000
+
+View full assignment details here:
+<https://xactanalysis.com/apps/xnportal/welcome.jsp?detail_mfn=SAMPLE01&detail_tab=d_assignment>
+
+This is a synthetic sample email used only for testing the parser.
+All names, numbers and addresses are fictitious.
+
+--sample-boundary-0001
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<html><body>
+<h2>New Assignment Profile</h2>
+<table>
+  <tr><td>Claim Number:</td><td>00-1234-567</td></tr>
+  <tr><td>Insured Name:</td><td>Jane Q. Sample</td></tr>
+  <tr><td>Mobile Phone:</td><td>555-010-0199</td></tr>
+  <tr><td>Email Address:</td><td>jane.sample@example.test</td></tr>
+  <tr><td>Type of Loss:</td><td>Water - Pipe Burst</td></tr>
+  <tr><td>Date of Loss:</td><td>05/10/2026</td></tr>
+  <tr><td>Location of Property:</td><td>1200 Example Ave, Sampletown, CA 90000</td></tr>
+</table>
+<p><a href="https://xactanalysis.com/apps/xnportal/welcome.jsp?detail_mfn=SAMPLE01&amp;detail_tab=d_assignment">View full assignment</a></p>
+</body></html>
+
+--sample-boundary-0001--
